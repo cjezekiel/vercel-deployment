@@ -10,6 +10,7 @@ db = [
     { "name": "Pinto", "age": 32 },
     { "name": "Dona", "age": 38 },
     { "name": "Cairo", "age": 17 },
+    { "name": "CJ", "age": 25 }
 ]
 
 
@@ -19,4 +20,5 @@ async def home_root():
 
 @app.get("/deploy")
 async def home_root():
+
     return {"message": "Render Deploy"}
